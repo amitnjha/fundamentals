@@ -11,7 +11,9 @@ int main(){
   step = 20;
 
   fahr = lower;
-
+  printf("Fahr\tCelsius\n");
+  printf("=====\t====\n");
+  
   while(fahr <= upper){
 
     cel = (5.0/9.0) * (fahr - 32);
