@@ -11,7 +11,7 @@ int main(){
   step = 20;
 
   cel = lower;
-
+  //poop
   printf("Celsius <--> Fahrenheit\n");
   printf("-----------------------\n");
   
