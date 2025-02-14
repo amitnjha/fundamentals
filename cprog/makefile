@@ -1,7 +1,13 @@
+charcount2.bin : charcount2.c
+	gcc charcount2.c -o charcount2.bin
 charcount.bin : charcount.c
 	gcc charcount.c -o charcount.bin
 exer_1_12.bin : exer_1_12.c
 	gcc exer_1_12.c -o exer_1_12.bin
+exer_1_13.bin : exer_1_13.c
+	gcc exer_1_13.c -o exer_1_13.bin
+exer_1_14.bin : exer_1_14.c
+	gcc exer_1_14.c -o exer_1_14.bin
 exer_1_3.bin : exer_1_3.c
 	gcc exer_1_3.c -o exer_1_3.bin
 exer_1_4.bin : exer_1_4.c
@@ -26,7 +32,7 @@ temp_conv_for.bin : temp_conv_for.c
 	gcc temp_conv_for.c -o temp_conv_for.bin
 wordcount.bin : wordcount.c
 	gcc wordcount.c -o wordcount.bin
-all : charcount.bin exer_1_12.bin exer_1_3.bin exer_1_4.bin exer_1_5.bin exer_1_6.bin exer_1_7.bin exer1_8.bin exer_1_9.bin inpt_to_output.bin linecount.bin temp_conv2.bin temp_conv_for.bin wordcount.bin
+all : charcount2.bin charcount.bin exer_1_12.bin exer_1_13.bin exer_1_14.bin exer_1_3.bin exer_1_4.bin exer_1_5.bin exer_1_6.bin exer_1_7.bin exer1_8.bin exer_1_9.bin inpt_to_output.bin linecount.bin temp_conv2.bin temp_conv_for.bin wordcount.bin
 	echo "Build Done" 
 clean:
 	rm *.bin
