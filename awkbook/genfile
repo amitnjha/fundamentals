@@ -1,0 +1,7 @@
+#!/bin/zsh
+awk 'BEGIN {
+   #print ARGV
+   for( i = 0 ; i <  ARGV[1];i++)
+     print i
+}' $*
+

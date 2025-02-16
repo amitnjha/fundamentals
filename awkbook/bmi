@@ -1,0 +1,8 @@
+#!/bin/zsh
+#echo 'hello'
+
+#bmi: compute body mass index
+
+awk 'BEGIN {print "enter pounds and inches"}
+    	   {printf("%.1f\n", ($1/2.2) / ($2 * 2.54/100) ^2) } '
+
