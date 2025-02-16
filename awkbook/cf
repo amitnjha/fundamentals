@@ -8,4 +8,6 @@ awk 'BEGIN {
       t, t/2.54, t, t*2.54)
     printf("%s kg = %.1f lb;	%s lb = %.1f kg\n",
       t, t*2.2, t, t/2.2)
+    printf("%s km = %.1f mi;	%s mi = %.1f km\n",
+      t, t*0.62, t, t * 1.609)
     }' $*
