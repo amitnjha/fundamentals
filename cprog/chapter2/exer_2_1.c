@@ -30,10 +30,11 @@ int main(){
   
   printf("ULONG_MAX - %lu\n", ULONG_MAX);
 
-  //  printf("FLOAT_MIN - %f\n", FLOAT_MIN);
-  //  printf("FLOAT_MAX - %f\n", FLOAT_MAX);
-  
+  printf("FLT_MIN - %f\n", FLT_MIN);
+  printf("FLT_MAX - %f\n", FLT_MAX);
 
-  
-  
+  printf("DBL_MIN - %f\n", DBL_MIN);
+  printf("DBL_MAX - %f\n", DBL_MAX);
+
+   
 }
